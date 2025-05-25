@@ -1,8 +1,111 @@
 html, body {
-  margin-right: 10%;
-  margin-left: 10%;
-  padding-right: 9%;
-  padding-left: 9%;
-  padding-top: 1%;
+  padding-top: .5%;
+  text-align: left;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100pt;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.h1Home {
   text-align: center;
+  padding-top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100pt;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  margin-top: -.75%;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  text-decoration: none;
+  color: black;
+  padding-bottom: -20pt;
+  border: none;
+  background-color: white;
+}
+
+.button:hover {
+  color: red;
+}
+
+.buttonAlphabet {
+  font-size: 100pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: .5%;
+  text-decoration: none;
+  color: black;
+}
+
+.alphabet {
+  font-size: 100pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: .5%;
+}
+
+#container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.textBoxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+
+.textBox {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  font-size: 18pt;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.outputTextBox {
+  width: 300px;
+  min-height: 300px;
+  font-size: 18pt;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.outputTextBox-names {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.center-output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }

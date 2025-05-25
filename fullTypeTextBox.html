@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+      <h1> <a href="index.html" class="h1"> Scrapbook Alphabet </a></h1>
+
+      <div id="container">
+        <div style="padding-left: .5%;">
+          <button onclick="location.href='customizations.html'" class="button"> Customizations </button>
+          <br>
+          <button onclick="location.href='textBox.html'" class="button" style="color: red;"> Text Box</button>
+          <br>
+          <button onclick="location.href='wordFinder.html'" class="button"> Word Finder</button>
+          <br>
+          <button onclick="location.href='myScrapbook.html'" class="button"> My Scrapbook </button>
+        </div>
+
+        <div style="padding-left: 7%;">
+            <button onclick="location.href='fullTypeTextBox.html'" class="button" style="color: red;"> Size, Color, & Type Face </button>
+            <br>
+            <button onclick="location.href='typeStyleTextBox.html'" class="button"> Type Face & Color </button>
+            <br>
+            <button onclick="location.href='typeSizeTextBox.html'" class="button"> Type Face & Size </button>
+        </div>
+
+        <div style="padding-left: 7%;"> 
+          <button id="bttn" class="button">Randomize</button>
+          <br>
+          <button onclick="location.href='fullTypeTextBox.html'" class="button"> Reset </button>
+        </div>
+      </div>
+      
+      <div class="textBoxContainer">
+        <textarea class="textBox" placeholder="Type here..."></textarea>
+        <div class="outputTextBox"></div>
+      </div>
+
+    </main>
+    <script src="fullTypeTextBoxSketch.js"></script>
+  </body>
+</html>
